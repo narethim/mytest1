@@ -31,3 +31,14 @@ The boxcutter templates currently support the following desktop virtualization s
 
 * `virtualbox-iso` - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) desktop virtualization
 
+## Building the Vagrant boxes with Packer (Again)
+
+To build all the boxes, you will need [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+
+    $ packer validate ubuntu.json
+
+Some text
+
+    * `abc.txt` - Some abc.text file
+    * `abc2.txt` - Some abc2.text file
+    
