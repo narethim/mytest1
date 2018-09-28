@@ -11,7 +11,7 @@ We no longer provide pre-built binaries for these templates.
 
 ## Building the Vagrant boxes with Packer
 
-To build all the boxes, you will need [VirtualBox](https://www.virtualbox.org/wiki/Downloads), 
+To build all the boxes, you will need [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 
 We make use of JSON files containing user variables to build specific versions of Ubuntu.
 You tell `packer` to use a specific user variable file via the `-var-file=` command line
